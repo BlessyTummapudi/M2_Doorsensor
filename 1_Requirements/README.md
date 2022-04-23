@@ -7,6 +7,22 @@
   |2|Power supply|yes|
   |3|Blinking of LED|yes|
   
+  # High level requirements:
+  |Requirements|Description|
+  |---|---|
+  |HLR1|Microcontroller|
+  |HLR2|Door sensor|
+  |HLR3|LED|
+  
+  # Low level Requirements:
+  |Requirements|Description|
+  |---|---|
+  |LLR1|Atmega328|
+  |LLR2|Voltimeter|
+  |LLR3|LED|
+  |LLR3|AVR GCC compiler|
+  |LLR4|simulIDE|
+  
 
 # 4W's and 1H:
   
@@ -36,4 +52,6 @@
  * Manual control option
  ## Threats:
  * Short porduct relevancy life span
+
+
  
